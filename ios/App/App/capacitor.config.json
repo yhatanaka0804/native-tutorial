@@ -1,0 +1,10 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "native-tutorial",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "src",
+  "server": {
+    "url": "http://localhost:8100"
+  }
+}
