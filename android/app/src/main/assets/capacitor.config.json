@@ -3,5 +3,9 @@
   "appName": "native-tutorial",
   "bundledWebRuntime": false,
   "npmClient": "npm",
-  "webDir": "src"
+  "webDir": "src",
+  "server": {
+    "url": "http://192.168.26.123:8101",
+    "originalUrl": "http://localhost:8100"
+  }
 }

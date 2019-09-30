@@ -16,7 +16,7 @@ export class AppComponent {
     private statusBar: StatusBar
   ) {
     this.initializeApp();
-    Plugins.AdMob.initialize(
+    Plugins.AdMob.initializeApp(
       platform.is('ios') ? 'ca-app-pub-4085474715775652~1545729814' : 'ca-app-pub-4085474715775652~8961185406'
     );
   }
